@@ -7,11 +7,11 @@ import HeadAbout from './components/HeadAbout';
 import styled from 'styled-components';
 
 
-const AboutStyle = styled.div`
+export const AboutStyle = styled.div`
     width: 100%;
     height: 100%;
 `
-const BannerStyle = styled.div`
+export const BannerStyle = styled.div`
     height: 100%;
     width: 100%;
     padding:2% 20%;
@@ -49,7 +49,7 @@ const BannerStyle = styled.div`
    
 `
 
-const Grid = styled.div`
+export const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -60,19 +60,19 @@ const Grid = styled.div`
   }
 `;
 
-const Item = styled.div`
+export const Item = styled.div`
   display: flex;
   justify-content: center;
   padding: .5rem;
 
 `
-const DivObj0 = styled.div`
+export const DivObj0 = styled.div`
     padding-left: 21%;
 `
-const DivObj = styled.div`
+export const DivObj = styled.div`
 `
 
-const TitleCenter = styled.div`
+export const TitleCenter = styled.div`
         h1 {
             padding-top: 2%;
             padding-bottom: 2%;

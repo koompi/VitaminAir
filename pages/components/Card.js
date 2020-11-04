@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import styled from 'styled-components'
 
-const Title = styled.h2`
+export const Title = styled.h2`
   padding-bottom: 2%;
   font-weight:bold;
   font-size: 26px;
@@ -12,7 +12,7 @@ const Title = styled.h2`
   text-transform: uppercase;
 `
 
-const Description = styled.p`
+export const Description = styled.p`
 
   font-size: 18px;
   letter-spacing: 0.5px;
@@ -24,7 +24,7 @@ const Description = styled.p`
 
 `
 
-const StyledPhoto = styled.img`
+export const StyledPhoto = styled.img`
   width: 80%;
   height: 80%;
   object-fit: cover;
@@ -36,7 +36,7 @@ const ContentImg = styled.img`
     margin-left: 0 !important;
 `
 
-const Card = ({ title,description, uri, imgcontent}) => (
+export const Card = ({ title,description, uri, imgcontent}) => (
     <div>
       <ContentImg  src={imgcontent} />
       <StyledPhoto src={uri} />

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-const SubscribeStyles = styled.div`
+export const SubscribeStyles = styled.div`
     background-color:rgb(240,241,243);
     margin-top: -4px;
     width: 100%;
@@ -23,7 +23,7 @@ const SubscribeStyles = styled.div`
     } 
   
 `;
-const ContainerStyles = styled.div`
+export const ContainerStyles = styled.div`
     max-width: 1080px;
     margin: 0 auto;
     /* padding-top: 64px;
@@ -34,7 +34,7 @@ const ContainerStyles = styled.div`
     padding: 10px 0;
 
 `;
-const Button = styled.button`
+export const Button = styled.button`
   /* Adapt the colors based on primary prop */
   background: ${props => props.primary ? "green" : "white"};
   color: ${props => props.primary ? "white" : "green"};

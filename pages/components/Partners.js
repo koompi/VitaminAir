@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Card from './Card'
 
 
-const PartnerStyles = styled.div`
+export const PartnerStyles = styled.div`
     margin: auto;
     width: 60%;
     padding-bottom: 3%;
@@ -44,7 +44,7 @@ const PartnerStyles = styled.div`
       }
 `;
 
-const Grid = styled.div`
+export const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   /* grid-template-rows: 50px 50px; */
@@ -57,14 +57,14 @@ const Grid = styled.div`
   }
 `;
 
-const Item = styled.div`
+export const Item = styled.div`
   display: flex;
   justify-content: center;
   padding: .5rem;
 
 `;
 
-const StyledContainerCard = styled.div`
+export const StyledContainerCard = styled.div`
   /* max-width: 50%; */
   width: 90%;
   margin: auto;
@@ -73,7 +73,7 @@ const StyledContainerCard = styled.div`
   }
 `;
 
-const StyledRootCard = styled.div`
+export const StyledRootCard = styled.div`
   padding: 50px 12px;
 `;
 

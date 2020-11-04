@@ -5,7 +5,7 @@ import {Telegram} from '@styled-icons/boxicons-logos/Telegram'
 
 
 
-const LogoButton = styled.button `
+export const LogoButton = styled.button `
       font-size: 1.2em;
       margin-right: 1rem;
       border-radius: 3px;
@@ -17,14 +17,14 @@ const LogoButton = styled.button `
           margin:8px;
       }
 `
-const TelegramStyles = styled(Telegram)`
+export const TelegramStyles = styled(Telegram)`
   max-width: 34px;
   padding-right: 10px;
   /* padding: 1px; */
   color: white;
 `
 
-const Nav = () => {
+export const Nav = () => {
     return (
         <NavStyles>
             <Link href="/about">

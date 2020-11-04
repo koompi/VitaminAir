@@ -2,7 +2,7 @@ import Link from 'next/link';
 import styled from 'styled-components';
 import Nav from './Nav';
 
-const Logo = styled.h1`
+export const Logo = styled.h1`
   font-size: 2rem;
   margin-left: 10rem;
   position: relative;
@@ -24,7 +24,7 @@ const Logo = styled.h1`
   }
 `;
 
-const StyledHeader = styled.header`
+export const StyledHeader = styled.header`
   .bar {
     /* border-bottom: 5px solid ; */
     /* background-color: #0db14b; */

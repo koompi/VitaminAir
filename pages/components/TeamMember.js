@@ -6,7 +6,7 @@ const BackgroundStyled = styled.div`
    /* background-color: rgb(240, 241, 243); */
 `;
 
-const ContactStyles = styled.div`
+export const ContactStyles = styled.div`
     margin: auto;
     width: 75%;
     padding-top: 2%;
@@ -23,7 +23,7 @@ const ContactStyles = styled.div`
 `;
 
 
-const Grid = styled.div`
+export const Grid = styled.div`
   padding-left: 9%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -42,14 +42,14 @@ const Grid = styled.div`
     }
 `;
 
-const Item = styled.div`
+export const Item = styled.div`
   display: flex;
   justify-content: center;
   /* padding: .5rem; */
 
 `
 
-const StyledContainerCard = styled.div`
+export const StyledContainerCard = styled.div`
   /* padding: 16px 16px;
   max-width: 75%;
   width: 80%; */

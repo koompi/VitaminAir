@@ -3,7 +3,7 @@ import styles from '../../styles/Home.module.css'
 import VdoStyles from './styles/VdoStyles'
 import {Telegram} from '@styled-icons/boxicons-logos/Telegram'
 
-const TextStyle  = styled.div`
+export const TextStyle  = styled.div`
         position:absolute;
         top: 30%;
         left: 6%;
@@ -55,7 +55,7 @@ const TextStyle  = styled.div`
         }
 
 `;
-const VdoTrackStyles = styled.div`
+export const VdoTrackStyles = styled.div`
     background-color: black;
     opacity: 0.4;
     top:0;
@@ -68,7 +68,7 @@ const VdoTrackStyles = styled.div`
     }
 ` ;
 
-const TelegramStyles = styled(Telegram)`
+export const TelegramStyles = styled(Telegram)`
   max-width: 50px;
   color: green;
 `
@@ -76,7 +76,7 @@ const TelegramStyles = styled(Telegram)`
   
 // `
 
-const Button = styled.button`
+export const Button = styled.button`
   /* Adapt the colors based on primary prop */
   background: ${props => props.primary ? "green" : "white"};
   color: ${props => props.primary ? "white" : "green"};

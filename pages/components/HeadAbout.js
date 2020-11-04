@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import Card from './Card'
 
 
-const HeadAboutStyle = styled.div`
+export const HeadAboutStyle = styled.div`
  
     margin: auto;
     width: 60%;
@@ -44,7 +44,7 @@ const HeadAboutStyle = styled.div`
     }
 `;
 
-const Grid = styled.div`
+export const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -55,14 +55,14 @@ const Grid = styled.div`
   }
 `;
 
-const Item = styled.div`
+export const Item = styled.div`
   display: flex;
   justify-content: center;
   padding: .5rem;
 
 `
 
-const StyledContainerCard = styled.div`
+export const StyledContainerCard = styled.div`
   max-width: 100%;
   width: 90%;
   margin: auto;
@@ -78,7 +78,7 @@ const StyledContainerCard = styled.div`
   }
 `;
 
-const StyledRootCard = styled.div`
+export const StyledRootCard = styled.div`
   padding: 50px 12px;
 `;
 

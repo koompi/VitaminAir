@@ -22,12 +22,12 @@ Router.onRouteChangeStart = () => {
   };
 
 
-const NavIndex = styled.div`
+export const NavIndex = styled.div`
   width: 100%;
   position: absolute;
   z-index: 1;
 `
-const NavMove = styled.div`
+export const NavMove = styled.div`
    padding-top: 2%;
    float:right  ;
    a{

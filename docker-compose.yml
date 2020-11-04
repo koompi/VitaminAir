@@ -1,0 +1,12 @@
+version: '3'
+services:
+  vitaminair:
+    image: vitaminair
+    container_name: Vitaminair
+    volumes:
+      - ./:/usr/app/vitaminair/
+    working_dir: /usr/app/vitaminair/
+    command: './run.sh'
+    ports:
+      - '3000:3000'
+      

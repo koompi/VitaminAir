@@ -14,7 +14,7 @@ const AboutStyle = styled.div`
 const BannerStyle = styled.div`
     height: 100%;
     width: 100%;
-    padding:2% 10%;
+    padding:2% 20%;
     background-color: white;
     h1{
         color: black;
@@ -27,6 +27,7 @@ const BannerStyle = styled.div`
     }
     h2 {
         color: black;
+        font-size: 18px;
         /* padding-top: 2% ; */
         /* margin: auto; */
         /* padding:2% */
@@ -34,7 +35,7 @@ const BannerStyle = styled.div`
     }
     p {
         color: black;
-        font-size: 1.5rem;
+        font-size: 18px;
         line-height: 2.5rem;
         margin: auto;
         /* padding: 1rem; */
@@ -71,26 +72,33 @@ const DivObj0 = styled.div`
 const DivObj = styled.div`
 `
 
+const TitleCenter = styled.div`
+        h1 {
+            padding-top: 2%;
+            padding-bottom: 2%;
+            font-weight:bold;
+            font-size: 26px;
+            margin: auto;
+            align-items: center;
+            position: relative;
+            /* font-weight: 500; */
+            text-transform: uppercase;
+        }
+`
 
 export default function Home() {
     return <>
         <AboutStyle>
             <Meta />      
-            <Header /> 
+            <Header />
+            <TitleCenter>
+                <center>
+                   <h1>About Us</h1>
+                </center>
+            </TitleCenter> 
             <HeadAbout />
-            {/* <BannerStyle>
-                <h1>What is Vitamin Air?</h1>
-                <p>Vitamin Air is a growing community of people actively engaged in social, cultural, ecological and economic regeneration.
-                    </p>
-                <h1>Vision</h1>
-                <p>
-                Our vision is to inspire others to rethink their relationship with nature, to learn how to live sustainably therein, and to seek input and guidance for creative new ways to provide benefit to each other and our surroundings.
-                </p>
-                <h1>Mission</h1>
-                <p>
-                Our mission is to work together with the Royal Government of Cambodia to reach and maintain a national forest cover of 60% of total land area and maintain it there for generations ahead. 
-                We work to reforest the rainforests, incorporating technology and designs inspired by nature.
-                </p>
+            <BannerStyle>
+         
                 <h1>Objectives</h1>
                 <p>
                 Sustainability, peace, love, harmony, sharing, growth, and abundance, with a focus on setting a good example for   generations into the future.
@@ -100,7 +108,7 @@ export default function Home() {
                 <p>- To facilitate workshops, adventure tours, and retreats that promote personal growth and sustainable lifestyles.</p>
                 <p>- To offer re-education and employment opportunities for local families engaged in illegal forest activities.</p>
                 <p>- To discover and create innovative business and employment opportunities for Cambodian youths.</p>
-            </BannerStyle> */}
+            </BannerStyle>
             <Team />
             <Contact />
         </AboutStyle>

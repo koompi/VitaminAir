@@ -68,8 +68,8 @@ const StyledContainerCard = styled.div`
   margin: auto;
   img{
         /* text-align: center; */
-        margin-left:20%;
-        width: 220px;
+        /* margin-left:20%; */
+        width: 480px;
   }
   @media(max-width: 480px ){
     img{
@@ -92,7 +92,7 @@ return(
               <Item>
                   <StyledContainerCard>
                       <Card
-                              uri="/image/Reforestation.jpg"  />
+                              uri="/image/about/vitaminAir-min.jpg"  />
                       </StyledContainerCard>
                   </Item>
                 <Item>
@@ -124,7 +124,7 @@ return(
                 <Item>
                     <StyledContainerCard>
                         <Card
-                                uri="/image/NaturalFraming.jpg" />
+                                uri="/image/about/vision-min.jpg" />
                         </StyledContainerCard>
                   </Item>
                   
@@ -145,7 +145,7 @@ return(
                   <Item>
                   <StyledContainerCard>
                       <Card
-                              uri="/image/Ecotourismjp.jpg"  />
+                              uri="/image/about/Mission-min.jpg"  />
                       </StyledContainerCard>
                   </Item>
                 <Item>

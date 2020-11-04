@@ -1,0 +1,23 @@
+{
+  "name": "vitaminair",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@styled-icons/boxicons-logos": "^10.18.0",
+    "@styled-icons/entypo-social": "^10.18.0",
+    "animate.css": "^4.1.1",
+    "antd": "^4.6.6",
+    "next": "9.5.3",
+    "nprogress": "^0.2.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-hook-google-maps": "^0.0.3",
+    "react-photo-gallery": "^8.0.0",
+    "styled-components": "^5.2.0"
+  }
+}

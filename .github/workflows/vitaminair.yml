@@ -21,13 +21,15 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: '12.x'
+          node-version: '14.x'
 
       - name: Build To Production
         run: |
           cd /home/runner/work/VitaminAir/VitaminAir/
           yarn install
           yarn build
+          cp docker-compose.yml ./.next/
+          cp run.sh ./.next/
         
       - name: ENV
         env:

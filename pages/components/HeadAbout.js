@@ -92,7 +92,7 @@ return(
               <Item>
                   <StyledContainerCard>
                       <Card
-                              uri="/image/about/vitaminAir-min.jpg"  />
+                              uri="/image/about/vitamin-air-min.jpg"  />
                       </StyledContainerCard>
                   </Item>
                 <Item>

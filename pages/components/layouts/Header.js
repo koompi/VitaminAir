@@ -28,8 +28,8 @@ export const StyledHeader = styled.header`
   .bar {
     /* border-bottom: 5px solid ; */
     /* background-color: #0db14b; */
-    padding: 0 10%;
-    background-color: #f6f6f6;
+    padding: 0 13%;
+    /* background-color: #f6f6f6; */
     display: grid;
     grid-template-columns: auto 1fr;
     justify-content: space-between;
@@ -51,7 +51,7 @@ const Header = () => (
       <Logo>
 
         <Link href="/">
-            <img src="/image/VitaminAir.png" />
+            <img src="/image/VA-White-V1.png" />
         </Link>
       </Logo>
       <Nav />

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import styles from '../../styles/Home.module.css'
 import VdoStyles from './styles/VdoStyles'
-import {Telegram} from '@styled-icons/boxicons-logos/Telegram'
+import {Telegram} from '@styled-icons/boxicons-logos'
 
 export const TextStyle  = styled.div`
         position:absolute;

@@ -85,12 +85,21 @@ export const TitleCenter = styled.div`
             text-transform: uppercase;
         }
 `
-
+const CoverAbout = styled.div`
+    max-width: 100%;
+    height: 600px;
+    background-color: green;
+    background-image: url("https://en.khmerpostasia.com/wp-content/uploads/2020/05/%E1%9F%A1%E1%9F%A0%E1%9F%A0.jpg");
+    background-size: cover;
+`
 export default function Home() {
     return <>
         <AboutStyle>
             <Meta />      
+           
+            <CoverAbout>
             <Header />
+            </CoverAbout>
             <TitleCenter>
                 <center>
                    <h1>About Us</h1>

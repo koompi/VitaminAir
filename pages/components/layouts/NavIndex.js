@@ -1,11 +1,12 @@
 import Link from 'next/link'
 import NavStyles from '../styles/NavStyles'
 import styled from 'styled-components'
-import {Telegram} from '@styled-icons/boxicons-logos/Telegram'
+import {Telegram} from '@styled-icons/boxicons-logos'
 
 
 
 export const LogoButton = styled.button `
+      height:  40px;
       font-size: 1.2em;
       margin-right: 1rem;
       border-radius: 3px;
@@ -18,9 +19,7 @@ export const LogoButton = styled.button `
       }
 `
 export const TelegramStyles = styled(Telegram)`
-  max-width: 34px;
-  padding-right: 10px;
-  /* padding: 1px; */
+  max-width: 40px;
   color: white;
 `
 
@@ -30,18 +29,14 @@ export const Nav = () => {
             <Link href="/about">
                 <a>About us</a>
             </Link>
-            <Link href="/">
-                <a>Community</a>
-            </Link>
             <Link href="https://t.me/vitaminair">
                 <LogoButton >
-                        <TelegramStyles />
-                        <p>Channel</p>
+                        <TelegramStyles size="48" title="Channel" />
+                        <p>Community</p>
                   
                 </LogoButton>
                     
             </Link>
-            
             
         </NavStyles>
     )

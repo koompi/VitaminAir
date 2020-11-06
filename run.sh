@@ -1,3 +1,4 @@
 #!/bin/bash
 
-yarn start
+npm i
+npm run dev

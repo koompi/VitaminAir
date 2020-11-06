@@ -112,7 +112,7 @@ const  BackgroundVideo = () =>{
             <h1 className=" animate__bounceIn">Let's</h1>
             <h1 className=" animate__bounceIn">plant our</h1>
             <h1 className=" animate__bounceIn vita">children future.</h1>
-            <p className="animate__bounceIn">Reforestation is the natural   the natural  </p>
+            <p className="animate__bounceIn">Reforestation, Airwater, Natural Farming, Seeds bomb, Ecotourism</p>
             <div>
                 
                 <Button as="a" href="/" primary>Discover</Button>

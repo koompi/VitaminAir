@@ -90,8 +90,7 @@ return(
                               title="Contact us"
                             />
                         <DetialContact>
-                          <p>Email : info@vitaminair.com  </p>
-                          <p>Mobile : 012 228 000 </p>
+                          <p>Email : info@vitaminair.org</p>
                         </DetialContact>
                       </StyledContainerCard>
               </Item>

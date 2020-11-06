@@ -28,7 +28,7 @@ export const StyledHeader = styled.header`
   .bar {
     /* border-bottom: 5px solid ; */
     /* background-color: #0db14b; */
-    padding: 0 13%;
+    padding: 0 12%;
     /* background-color: #f6f6f6; */
     display: grid;
     grid-template-columns: auto 1fr;

@@ -95,13 +95,15 @@ return(
               <Item>
                   <StyledContainerCard>
                       <Card
-                              uri="/image/Reforestation.jpg"  />
+                              // uri="/image/Reforestation.jpg" 
+                              uri="/image/Rreforestation-Green.png"
+                               />
                       </StyledContainerCard>
                   </Item>
                 <Item>
                     <StyledContainerCard>
                         <Card 
-                        imgcontent="/image/Rreforestation-Green.png"
+                        // imgcontent="/image/Rreforestation-Green.png"
                         title="Reforestation"
                         description="Plant our children’s future. Reforest and maintain 60% plus of Cambodian national forest cover. "
                         
@@ -114,7 +116,7 @@ return(
                   <Item>
                     <StyledContainerCard>
                         <Card
-                          imgcontent="/image/Natural-Farming-Green.png"
+                          // imgcontent="/image/Natural-Farming-Green.png"
                           title="Natural Farming"
                           description="Creating a well-balanced eco-system and rich soils that produce nutrient-dense foods while treating the environment and the animals with respect." />
                       </StyledContainerCard>
@@ -125,7 +127,9 @@ return(
                 <Item>
                     <StyledContainerCard>
                         <Card
-                                uri="/image/NaturalFraming.jpg" />
+                                uri="/image/Natural-Farming-Green.png"
+                                // uri="/image/NaturalFraming.jpg" 
+                                />
                         </StyledContainerCard>
                   </Item>
                   
@@ -144,13 +148,15 @@ return(
                   <Item>
                   <StyledContainerCard>
                       <Card
-                              uri="/image/Ecotourismjp.jpg"  />
+                              // uri="/image/Ecotourismjp.jpg" 
+                              uri="/image/Ecotourism-Green.png"
+                               />
                       </StyledContainerCard>
                   </Item>
                 <Item>
                     <StyledContainerCard>
                         <Card
-                                imgcontent="/image/Ecotourism-Green.png"
+                                // imgcontent="/image/Ecotourism-Green.png"
                                 title="Eco-tourism"
                                 description="Get mankind closer to mother nature. Ingrain the love and healthy relationship between human and nature. " />
                         </StyledContainerCard>
@@ -159,7 +165,7 @@ return(
                   <Item>
                     <StyledContainerCard>
                         <Card
-                           imgcontent="/image/Air-Watet-Green.png"    
+                          //  imgcontent="/image/Air-Watet-Green.png"    
                            title="AirWater"
                            description="Capture water from thin air. Solve water shortage issues for a prosperous community. "
                                 />
@@ -171,7 +177,9 @@ return(
                 <Item>
                     <StyledContainerCard>
                         <Card
-                                uri="/image/airwater.jpg" />
+                                uri="/image/Air-Watet-Green.png"
+                                // uri="/image/airwater.jpg"
+                                 />
                         </StyledContainerCard>
                   </Item>
                   <div className="divTwoMobile">
@@ -188,13 +196,16 @@ return(
                   <Item>
                   <StyledContainerCard>
                       <Card
-                              uri="/image/seedbomb.jpg"  />
+                              // uri="/image/seedbomb.jpg"
+                              uri="/image/Seeds-Bomb-Green.png"
+                              
+                              />
                       </StyledContainerCard>
                   </Item>
                 <Item>
                     <StyledContainerCard>
                         <Card
-                                imgcontent="/image/Seeds-Bomb-Green.png" 
+                                // imgcontent="/image/Seeds-Bomb-Green.png" 
                                 title="Seed Bombing"
                                 description="We use technology and ecological science to surpass traditional tree-planting efforts and rapidly accelerate global reforestation efforts."
                                 />

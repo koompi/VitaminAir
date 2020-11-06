@@ -10,9 +10,9 @@ const LogoButton = styled.button`
       margin-right: 1rem;
       border-radius: 3px;
       color: green;
-      background-color:green;
+      /* background-color:green; */
       p{
-          color: white;
+          color: #0cb04a;
           font-size: 20px;
           margin:8px;
       }
@@ -20,7 +20,7 @@ const LogoButton = styled.button`
 
 const TelegramStyles = styled(Telegram)`
   max-width: 40px;
-  color: white;
+  color: #0cb04a;
 `
 
 const Nav = () => {

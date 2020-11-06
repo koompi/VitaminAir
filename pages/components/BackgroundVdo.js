@@ -24,7 +24,7 @@ export const TextStyle  = styled.div`
             /* padding: 50px 0; */
             position: absolute;
             /* margin: -48px; */
-            margin-top: -49%;
+            margin-top: -46.5%;
         }
         h1 {
             font-size: 3.5em ;
@@ -109,9 +109,9 @@ const  BackgroundVideo = () =>{
            </VdoTrackStyles>
            <TextStyle>
             <img src="/image/VA-White-V1.png" />
-            <h1 className=" animate__bounceIn">Let's</h1>
-            <h1 className=" animate__bounceIn">plant our</h1>
-            <h1 className=" animate__bounceIn vita">children future.</h1>
+            <h1 className=" animate__bounceIn">In search</h1>
+            <h1 className=" animate__bounceIn"> for The Next </h1>
+            <h1 className=" animate__bounceIn vita">Small Things.</h1>
             <p className="animate__bounceIn">Reforestation, Airwater, Natural Farming, Seeds bomb, Ecotourism</p>
             <div>
                 

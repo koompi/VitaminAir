@@ -67,6 +67,9 @@ export const Item = styled.div`
 export const StyledContainerCard = styled.div`
   max-width: 100%;
   margin: auto;
+  h2 , p {
+    padding-left: 7%;
+  }
   @media(max-width : 900px){
     width: 96%;
   }

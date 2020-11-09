@@ -1119,14 +1119,6 @@
     "@babel/runtime" "^7.10.5"
     "@styled-icons/styled-icon" "^10.6.0"
 
-"@styled-icons/entypo-social@^10.18.0":
-  version "10.18.0"
-  resolved "https://registry.yarnpkg.com/@styled-icons/entypo-social/-/entypo-social-10.18.0.tgz#1aeb904cc057b17353ea5a4b52175a61d39bcb91"
-  integrity sha512-JjDRJrsLi2IhjPBLYPJW+SNOijcOAOHu6ulyEJmtIRCKGzwdFJaXFPVxhULDnsr1vwBlxYdyvpz72liZH1gZpw==
-  dependencies:
-    "@babel/runtime" "^7.10.5"
-    "@styled-icons/styled-icon" "^10.6.0"
-
 "@styled-icons/styled-icon@^10.6.0":
   version "10.6.3"
   resolved "https://registry.yarnpkg.com/@styled-icons/styled-icon/-/styled-icon-10.6.3.tgz#eae0e5e18fd601ac47e821bb9c2e099810e86403"
@@ -1563,7 +1555,7 @@ babel-plugin-dynamic-import-node@^2.3.3:
   dependencies:
     object.assign "^4.1.0"
 
-"babel-plugin-styled-components@>= 1":
+"babel-plugin-styled-components@>= 1", babel-plugin-styled-components@^1.11.1:
   version "1.11.1"
   resolved "https://registry.yarnpkg.com/babel-plugin-styled-components/-/babel-plugin-styled-components-1.11.1.tgz#5296a9e557d736c3186be079fff27c6665d63d76"
   integrity sha512-YwrInHyKUk1PU3avIRdiLyCpM++18Rs1NgyMXEAQC33rIXs/vro0A+stf4sT0Gf22Got+xRWB8Cm0tw+qkRzBA==

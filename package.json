@@ -18,5 +18,8 @@
     "react-hook-google-maps": "^0.0.3",
     "react-photo-gallery": "^8.0.0",
     "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.11.1"
   }
 }

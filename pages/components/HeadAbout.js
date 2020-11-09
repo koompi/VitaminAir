@@ -72,6 +72,12 @@ export const StyledContainerCard = styled.div`
   }
   @media(max-width : 900px){
     width: 96%;
+    h2 , p {
+    padding-left:0px;
+  }
+  img {
+    margin-top: 3%;
+  }
   }
   
   img{

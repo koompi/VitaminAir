@@ -32,6 +32,7 @@ export const PartnerStyles = styled.div`
       center{
         /* font-size: 2vh; */
       }
+
     }
 
     @media(max-width: 900px){
@@ -52,6 +53,9 @@ export const Grid = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  @media(max-width: 1024px){
+    grid-template-columns: repeat(4,1fr);
+  }
   @media(max-width: 900px ){
     grid-template-columns: repeat(2, 1fr);
   }

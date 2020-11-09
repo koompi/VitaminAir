@@ -54,7 +54,12 @@ const Grid = styled.div`
   flex-wrap: wrap;
   @media (max-width: 900px) {
     grid-template-columns: repeat(1, 1fr);
+    margin-left: 17px;
+    text-align: center;
+    img {
+    margin-left: 0% !important;
   }
+}
 `;
 
 const Item = styled.div`

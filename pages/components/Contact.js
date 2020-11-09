@@ -10,21 +10,28 @@ export const BackgroundStyled = styled.div`
 
 export const ContactStyles = styled.div`
     margin: auto;
-    width: 75%;
+    width: 60%;
     padding-top: 2%;
     padding-bottom: 3%;
-    
+    @media(max-width: 1024px ){
+    width: 100%;
+  }
+
 `;
 
 
 export const Grid = styled.div`
-  padding-left: 9%;
+  /* padding-left: 9%; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  @media(max-width: 1024px ){
+    width: 88%;
+  }
   @media (max-width: 900px) {
+      margin: auto;
       text-align: center;
       padding-left: 0;
       font-size: 1.5vh;
@@ -59,6 +66,14 @@ export const StyledContainerCard = styled.div`
     padding-top: 6px; 
 
   }
+  @media(max-width: 900px ){
+    padding: none;
+    max-width: none;
+    width: 100%;
+    margin: auto;
+  }
+
+  
 `;
 const Social = styled.div`
 

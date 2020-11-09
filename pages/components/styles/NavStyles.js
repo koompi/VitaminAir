@@ -69,8 +69,6 @@ const NavStyles = styled.ul`
     }
   }
   @media (max-width: 1300px) {
-    
-    border-top: 1px solid ;
     padding: 1%;
     width: 76%;
     justify-content: center;
@@ -83,6 +81,9 @@ const NavStyles = styled.ul`
     width: 69%;
     justify-content: center;
     font-size: 1.5rem;
+  }
+  @media(max-width: 900px){
+      display: none;
   }
 `;
 

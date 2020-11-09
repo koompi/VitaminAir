@@ -51,6 +51,7 @@ export const TextStyle  = styled.div`
             /* margin: 0; */
             @media (max-width: 700px) {
                 font-size: 0;
+
             }
         }
 
@@ -86,10 +87,15 @@ export const Button = styled.button`
   padding: 0.25em 1em;
   border: 2px solid green;
   border-radius: 3px;
+  @media (max-width: 700px) {
+               display: none;
+                
+    }
   @media(max-width: 480px ){
        margin: 2px;
        padding: 0.25em 10px;
     }
+    
   
   
 `;

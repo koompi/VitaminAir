@@ -2,7 +2,7 @@ import Link from 'next/link';
 import styled from 'styled-components';
 import Card from './Card';
 
-import {SocialYoutube,SocialLinkedin} from '@styled-icons/foundation';
+// import {SocialYoutube,SocialLinkedin} from '@styled-icons/foundation';
 import {Telegram} from '@styled-icons/boxicons-logos';
 export const BackgroundStyled = styled.div`
    background-color: rgb(240, 241, 243);
@@ -99,12 +99,12 @@ return(
                               title="Follow us" />
                   
                   <Social>
-                      <Link href="https://www.linkedin.com/company/vitaminair/" >
+                      {/* <Link href="https://www.linkedin.com/company/vitaminair/" >
                       <SocialLinkedin size="48" />
                       </Link>
                       <Link href="https://www.youtube.com/channel/UCL_dER70Hn-OncQ52BXQYLg" >
                       <SocialYoutube size="48" />
-                      </Link>
+                      </Link> */}
                       <Link href="https://t.me/vitaminair" >
                       <Telegram size="48" />
                       </Link>

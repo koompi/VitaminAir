@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@styled-icons/boxicons-logos": "^10.18.0",
+    "@styled-icons/foundation": "^10.18.0",
     "animate.css": "^4.1.1",
     "antd": "^4.6.6",
     "next": "9.5.3",

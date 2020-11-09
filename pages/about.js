@@ -89,7 +89,7 @@ const CoverAbout = styled.div`
     max-width: 100%;
     height: 600px;
     background-color: green;
-    background-image: url("/image/about/Mission-min.jpg");
+    background-image: url("/image/about/cover.jpg");
     background-size: cover;
 `
 export default function Home() {

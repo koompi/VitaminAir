@@ -36,10 +36,12 @@ const ContentImg = styled.img`
     margin-left: 0 !important;
 `
 
-export const Card = ({ title,description, uri, imgcontent}) => (
+export const Card = ({ title,description, uri, url, imgcontent ,}) => (
     <div>
       <ContentImg  src={imgcontent} />
+      <a href={url} >
       <StyledPhoto src={uri} />
+      </a>
       <Title>{title}</Title> 
       <Description>
       {description}

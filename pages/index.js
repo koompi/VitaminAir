@@ -6,7 +6,6 @@ import Header from './components/layouts/Header'
 import Nav from './components/layouts/NavIndex';
 import Project from './components/Projects'
 import Partner from './components/Partners'
-import Subcribe from './components/Subscribe'
 import Contact from './components/Contact'
 import NProgress from 'nprogress';
 
@@ -43,13 +42,13 @@ export default function Home() {
               <NavMove>
                  <Nav />  
               </NavMove>
-            
+          <section id="top"></section>
           </NavIndex>     
           <BackgroundVdo /> 
+          <section id="projects"></section>
           <Project />
           <Partner />
           <Contact />
-          {/* <Footer /> */}
       </div> 
   )
 

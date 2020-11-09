@@ -109,13 +109,12 @@ const  BackgroundVideo = () =>{
            </VdoTrackStyles>
            <TextStyle>
             <img src="/image/VA-White-V1.png" />
-            <h1 className=" animate__bounceIn">In search</h1>
-            <h1 className=" animate__bounceIn"> for The Next </h1>
-            <h1 className=" animate__bounceIn vita">Small Things.</h1>
-            <p className="animate__bounceIn">Reforestation, Airwater, Natural Farming, Seeds bomb, Ecotourism</p>
+            <h1 className=" animate__bounceIn">In search for</h1>
+            <h1 className=" animate__bounceIn vita">the Next Small Things.</h1>
+            <p className="animate__bounceIn">Protect, preserve, and restore our rain forests for generations ahead.</p>
             <div>
                 
-                <Button as="a" href="/" primary>Discover</Button>
+                <Button as="a" href="#projects" primary>Discover</Button>
 
             </div>
            

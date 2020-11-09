@@ -88,22 +88,13 @@ return(
         <ContactStyles>
         <center>Team Member</center>
             <Grid>
-              <Item>
-                  <StyledContainerCard>
-                      <Card
-
-                              uri="/image/min/Rithy-Thul.png" 
-                               title="Rithy Thul"
-                              description="Co-Founder"  />
-                      </StyledContainerCard>
-              </Item>
-              <Item>
+            <Item>
                   <StyledContainerCard>
                   
                       <Card
-                            uri="/image/min/Clara-Donadello.png" 
-                            title="Clara Donadello"
-                            description="Senior Advisor"  />
+                            uri="/image/min/Panha-Suon.png" 
+                            title="Panha Suon"
+                            description="Operation"  />
                       </StyledContainerCard>
               </Item>
               <Item>
@@ -112,16 +103,7 @@ return(
                       <Card 
                               uri="/image/min/Sela-Thul.png" 
                               title="Sela Thul"
-                              description="Head of Operations"  />
-                      </StyledContainerCard>
-              </Item>
-              <Item>
-                  <StyledContainerCard>
-                  
-                      <Card
-                            uri="/image/min/Panha-Suon.png" 
-                            title="Panha Suon"
-                            description="General Manager"  />
+                              description="Community"  />
                       </StyledContainerCard>
               </Item>
               <Item>
@@ -131,34 +113,48 @@ return(
 
                               uri="/image/min/Rithy-Sourn.png" 
                               title="Rithy Sourn"
-                              description="Research & Development Lead"  />
+                              description="R&D"  />
                       </StyledContainerCard>
               </Item>
-              <Item>
-                  <StyledContainerCard>
-                      
-                      <Card 
-                              uri="/image/min/Lykheang-Moeurn.png" 
-                              title="Lykheang Moeurn"
-                              description="Research & Development Assistant"  />
-                      </StyledContainerCard>
-              </Item>
+
               <Item>
                   <StyledContainerCard>
                   
                       <Card
                             uri="/image/min/Song-Sab.png" 
                             title="Song Sab"
-                            description="Farm Manager"  />
+                            description="Mechanic"  />
                       </StyledContainerCard>
               </Item>
+
+             
               <Item>
                   <StyledContainerCard>
                       <Card
 
                               uri="/image/min/Dane-Hieng.png" 
                                title="Dane Hieng"
-                              description="Education & Camp Manager"  />
+                              description="Outdoor Education"  />
+                      </StyledContainerCard>
+              </Item>
+
+              <Item>
+                  <StyledContainerCard>
+                      
+                      <Card 
+                              uri="/image/min/Lykheang-Moeurn.png" 
+                              title="Lykheang Moeurn"
+                              description="Developer"  />
+                      </StyledContainerCard>
+              </Item>
+
+              <Item>
+                  <StyledContainerCard>
+                      
+                      <Card 
+                              uri="/image/min/sokunthy-chan.png" 
+                              title="Sokunthy Chan"
+                              description="Finance"  />
                       </StyledContainerCard>
               </Item>
               <Item>
@@ -170,6 +166,30 @@ return(
                               description="Farm Team"  />
                       </StyledContainerCard>
               </Item>
+              <Item>
+                  <StyledContainerCard>
+                      <Card
+
+                              uri="/image/min/Rithy-Thul.png" 
+                               title="Rithy Thul"
+                              description="Strategist"  />
+                      </StyledContainerCard>
+              </Item>
+              <Item>
+                  <StyledContainerCard>
+                  
+                      <Card
+                            uri="/image/min/Clara-Donadello.png" 
+                            title="Clara Donadello"
+                            description="Advisor"  />
+                      </StyledContainerCard>
+              </Item>
+              
+             
+             
+
+              
+              
               
             </Grid>
         </ContactStyles>

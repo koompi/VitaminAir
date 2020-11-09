@@ -2,11 +2,8 @@ import Link from 'next/link';
 import styled from 'styled-components';
 import Card from './Card';
 
-// import {Zap} from 'styled-icons/boxicons-logos/FacebookCircle';
-// import {Facebook} from '@styled-icons/entypo-social/FacebookWithCircle';
-
-import {LinkedinSquare ,MediumSquare , FacebookSquare} from '@styled-icons/boxicons-logos';
-
+import {SocialYoutube,SocialLinkedin} from '@styled-icons/foundation';
+import {Telegram} from '@styled-icons/boxicons-logos';
 export const BackgroundStyled = styled.div`
    background-color: rgb(240, 241, 243);
 `;
@@ -78,11 +75,13 @@ return(
             <Grid>
               <Item>
                   <StyledContainerCard>
+                  <a href="#top">
                       <Card
                               uri="/image/Vitamin-air-black.png" 
                                />
+                  </a>
                       </StyledContainerCard>
-                    
+                  
               </Item>
               <Item>
                   <StyledContainerCard>
@@ -100,9 +99,15 @@ return(
                               title="Follow us" />
                   
                   <Social>
-                      <LinkedinSquare size="48" />
-                      <FacebookSquare size="48" />
-                      <MediumSquare  size="48" />
+                      <Link href="https://www.linkedin.com/company/vitaminair/" >
+                      <SocialLinkedin size="48" />
+                      </Link>
+                      <Link href="https://www.youtube.com/channel/UCL_dER70Hn-OncQ52BXQYLg" >
+                      <SocialYoutube size="48" />
+                      </Link>
+                      <Link href="https://t.me/vitaminair" >
+                      <Telegram size="48" />
+                      </Link>
                   </Social>
                       </StyledContainerCard>
               </Item>

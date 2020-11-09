@@ -85,36 +85,39 @@ return(
     
         <PartnerStyles>
             <center>Strategic Partners</center>
-            <h2>We're especially pleased to have built strategic partnerships
-with forward thinking leaders in the business world.</h2>
+            <h2>We're especially pleased to have built strategic partnerships with forward thinking leaders in the business world.</h2>
             <Grid>
               <Item>
                   <StyledContainerCard>
-                      <Card
+                      <Card   
+                              url="https://smallworldventure.com/"
                               uri="image/smallworld.png"  />
                       </StyledContainerCard>
                   </Item>
                 <Item>
                     <StyledContainerCard>
                         <Card
+                                url="https://koompi.com/"
                                 uri="image/koompi.png" />
                       </StyledContainerCard>
                   </Item>
                 <Item>
                     <StyledContainerCard>
-                        <Card                             
+                        <Card                   
+                                url="https://sabay.com/"          
                                 uri="/image/sabay.png" />
                         </StyledContainerCard>
                   </Item>
                   <Item>
                     <StyledContainerCard>
-                        <Card
+                        <Card   url="https://isisteel.com.kh/"
                                 uri="/image/ISI.png" />
                         </StyledContainerCard>
                   </Item>
                   <Item>
                     <StyledContainerCard>
                         <Card
+                                url="https://doersasean.com/"
                                 uri="/image/Doer.png" />
                         </StyledContainerCard>
                   </Item>

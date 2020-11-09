@@ -105,7 +105,7 @@ return(
                         <Card 
                         // imgcontent="/image/Rreforestation-Green.png"
                         title="Reforestation"
-                        description="Plant our children’s future. Reforest and maintain 60% plus of Cambodian national forest cover. "
+                        description="Reforest and maintain 60% plus of Cambodian national forest cover."
                         
                      
                                
@@ -118,7 +118,7 @@ return(
                         <Card
                           // imgcontent="/image/Natural-Farming-Green.png"
                           title="Natural Farming"
-                          description="Creating a well-balanced eco-system and rich soils that produce nutrient-dense foods while treating the environment and the animals with respect." />
+                          description="Designing balanced ecosystems and rich soils that produce nutrient-dense foods while treating the environment and the animals with respect." />
                       </StyledContainerCard>
                   </Item>
                   </div>
@@ -139,7 +139,7 @@ return(
                         <Card
                             
                             title="Eco-tourism"
-                            description="Creating a well-balanced eco-system and rich soils that produce nutrient-dense foods while treating the environment and the animals with respect."
+                            description="Bringing everyone closer to nature, instilling love, healthy and sustainable relationships among people."
                                 />
                       </StyledContainerCard>
                   </Item>
@@ -158,7 +158,8 @@ return(
                         <Card
                                 // imgcontent="/image/Ecotourism-Green.png"
                                 title="Eco-tourism"
-                                description="Get mankind closer to mother nature. Ingrain the love and healthy relationship between human and nature. " />
+                                description="Bringing everyone closer to nature, instilling love, healthy and sustainable relationships among people."
+                                 />
                         </StyledContainerCard>
                   </Item>
                   <div className="divTwo">
@@ -167,7 +168,7 @@ return(
                         <Card
                           //  imgcontent="/image/Air-Watet-Green.png"    
                            title="AirWater"
-                           description="Capture water from thin air. Solve water shortage issues for a prosperous community. "
+                           description="Capturing purified water from air, building water and irrigation systems for abundance and prosperity."
                                 />
                       </StyledContainerCard>
                   </Item>
@@ -188,7 +189,7 @@ return(
                     <Card   
                             
                             title="AirWater"
-                            description="Capture water from thin air. Solve water shortage issues for a prosperous community. "
+                            description="Capturing purified water from air, building water and irrigation systems for abundance and prosperity."
                                 />
                       </StyledContainerCard>
                   </Item>
@@ -207,7 +208,7 @@ return(
                         <Card
                                 // imgcontent="/image/Seeds-Bomb-Green.png" 
                                 title="Seed Bombing"
-                                description="We use technology and ecological science to surpass traditional tree-planting efforts and rapidly accelerate global reforestation efforts."
+                                description="Combining tradition with ecological science and technology for enhanced productivity."
                                 />
                       </StyledContainerCard>
                   </Item>

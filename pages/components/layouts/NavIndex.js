@@ -29,7 +29,7 @@ export const Nav = () => {
             <Link href="/about">
                 <a>About us</a>
             </Link>
-            <Link href="https://t.me/vitaminair">
+            <Link href="https://t.me/vitaminair"  target="_blank"  >
                 <LogoButton >
                         <TelegramStyles size="48" title="Channel" />
                         <p>Community</p>

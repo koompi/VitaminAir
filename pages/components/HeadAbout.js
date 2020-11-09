@@ -52,6 +52,8 @@ export const Grid = styled.div`
   flex-wrap: wrap;
   @media (max-width: 900px) {
     grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+    padding: 0;
   }
 `;
 
@@ -64,8 +66,11 @@ export const Item = styled.div`
 
 export const StyledContainerCard = styled.div`
   max-width: 100%;
-  width: 90%;
   margin: auto;
+  @media(max-width : 900px){
+    width: 96%;
+  }
+  
   img{
         /* text-align: center; */
         /* margin-left:20%; */
@@ -76,6 +81,7 @@ export const StyledContainerCard = styled.div`
       width: 100%;
     }
   }
+
 `;
 
 export const StyledRootCard = styled.div`

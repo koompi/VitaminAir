@@ -77,6 +77,15 @@ export const StyledContainerCard = styled.div`
     padding-left:auto;
     margin-right: 30%;
   }
+  @media(max-width: 834px){
+    h2 ,p {
+      margin: 0px;
+    }
+    img {
+      margin-top: 10px;
+      padding-top:5px;
+    }
+  }
 `;
 
 

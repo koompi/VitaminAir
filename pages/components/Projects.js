@@ -74,7 +74,7 @@ const StyledContainerCard = styled.div`
   width: 90%;
   margin: auto;
   p {
-    margin: 0;
+    margin:auto 0;
   }
   img{
         /* text-align: center; */

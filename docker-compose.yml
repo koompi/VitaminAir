@@ -5,7 +5,7 @@ services:
     container_name: Vitaminair
     volumes:
       - ./:/usr/app/vitaminair/
-    working_dir: /usr/app/vitaminair/
+    working_dir: /usr/app/vitaminair/.next
     command: './run.sh'
     ports:
       - '3000:3000'

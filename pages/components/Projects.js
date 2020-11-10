@@ -73,6 +73,9 @@ const StyledContainerCard = styled.div`
   max-width: 100%;
   width: 90%;
   margin: auto;
+  p {
+    margin: 0;
+  }
   img{
         /* text-align: center; */
         margin-left:20%;

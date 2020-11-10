@@ -39,7 +39,10 @@ export const BannerStyle = styled.div`
         line-height: 2.5rem;
         margin: auto;
         /* padding: 1rem; */
-        width: 80%
+        width: 80%;
+        img {
+            height: 13px;
+        }
     }
     ul {
         font-size: 20px;
@@ -112,11 +115,11 @@ export default function Home() {
                 <p>
                 Sustainability, peace, love, harmony, sharing, growth, and abundance, with a focus on setting a good example for   generations into the future.
                 </p>
-                <p>- To live together in a collaborative community, encouraging each other and our surrounding communities to live in &nbsp; &nbsp;  harmony with each other and our natural environment.</p>
-                <p>- To grow in size and recognition to influence others around the world by example, education, and research.</p>
-                <p>- To facilitate workshops, adventure tours, and retreats that promote personal growth and sustainable lifestyles.</p>
-                <p>- To offer re-education and employment opportunities for local families engaged in illegal forest activities.</p>
-                <p>- To discover and create innovative business and employment opportunities for Cambodian youths.</p>
+                <p><img src="fav.png"></img> To live together in a collaborative community, encouraging each other and our surrounding communities to live &nbsp; &nbsp; &nbsp; &nbsp;  in   harmony with each other and our natural environment.</p>
+                <p><img src="fav.png"></img> To grow in size and recognition to influence others around the world by example, education, and research.</p>
+                <p><img src="fav.png"></img> To facilitate workshops, adventure tours, and retreats that promote personal growth and sustainable lifestyles.</p>
+                <p><img src="fav.png"></img> To offer re-education and employment opportunities for local families engaged in illegal forest activities.</p>
+                <p><img src="fav.png"></img> To discover and create innovative business and employment opportunities for Cambodian youths.</p>
             </BannerStyle>
             <Team />
             <Contact />

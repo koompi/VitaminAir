@@ -33,6 +33,10 @@ export const NavMove = styled.div`
      color: white;
    }
 `
+
+const MobileStyled = styled.div`
+    background-color: black;
+`
 export default function Home() {
 
   return (
@@ -49,6 +53,7 @@ export default function Home() {
           <Project />
           <Partner />
           <Contact />
+          
       </div> 
   )
 

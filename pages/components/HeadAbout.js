@@ -28,6 +28,7 @@ export const HeadAboutStyle = styled.div`
       }
     }
     @media (max-width: 900px) {
+      width: 100%;
       font-size: 1.5vh;
       grid-template-columns: 1fr;
       justify-content: center;

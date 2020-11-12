@@ -49,7 +49,11 @@ export const BannerStyle = styled.div`
         color: white;
         line-height: 3vh;
     }
-   
+   @media(max-width: 900px){
+    padding:0;
+    margin-bottom: 40px;
+   }
+
 `
 
 export const Grid = styled.div`
@@ -86,6 +90,12 @@ export const TitleCenter = styled.div`
             position: relative;
             /* font-weight: 500; */
             text-transform: uppercase;
+        }
+        @media(max-width: 900px){ 
+
+            h1 {
+                padding-top: 6%;  
+            }
         }
 `
 const CoverAbout = styled.div`

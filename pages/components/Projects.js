@@ -30,6 +30,8 @@ const ProjectStyles = styled.div`
       }
     }
     @media (max-width: 900px) {
+      width: 100%;
+  
       font-size: 1.5vh;
       grid-template-columns: 1fr;
       justify-content: center;
@@ -59,6 +61,10 @@ const Grid = styled.div`
     img {
     margin-left: 0% !important;
   }
+  @media (max-width: 450px) {
+    margin: 0;
+    padding: 0;
+  }
 }
 `;
 
@@ -82,8 +88,12 @@ const StyledContainerCard = styled.div`
         width: 220px;
   }
   @media(max-width: 480px ){
+    margin-top: 10px;
     img{
       width: 100%;
+    }
+    p {
+      padding-bottom: 40px;
     }
   }
 `;

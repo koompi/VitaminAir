@@ -2,8 +2,11 @@ import Link from 'next/link'
 import styled from 'styled-components'
 
 const MenuStyle = styled.div`
-        text-align: center;
+        /* text-align: center; */
+
         a{
+    
+            padding-left: 10px;
             color: #0db14b;
             font-weight:bold;
             font-size: 18px;

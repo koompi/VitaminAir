@@ -31,7 +31,7 @@ const NavSmall = () => {
             <ButtonMenu 
                 onClick={handleToggle}
             >
-                <RedMenuAltLeft size="40" />
+                <RedMenuAltLeft size="60" />
             </ButtonMenu>
             {toggleMenu 
                 ? <Menu />

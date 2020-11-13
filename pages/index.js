@@ -3,6 +3,7 @@ import Router from 'next/router'
 import BackgroundVdo from './components/BackgroundVdo'
 import Meta from './components/layouts/Meta'
 import Header from './components/layouts/Header'
+import Navsmall  from './components/layouts/Navsmall'
 import Nav from './components/layouts/NavIndex';
 import Project from './components/Projects'
 import Partner from './components/Partners'
@@ -42,6 +43,7 @@ export default function Home() {
   return (
       <div className={styled.container}>      
           <Meta />
+          <Navsmall />
           <NavIndex>
               <NavMove>
                  <Nav />  

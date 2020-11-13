@@ -66,6 +66,7 @@ export const VdoTrackStyles = styled.div`
     @media(max-width: 900px){
         top:27.4%;
         height: 72%;
+        display: none;
     }
 ` ;
 
@@ -106,7 +107,7 @@ const  BackgroundVideo = () =>{
     
     return (
         <VdoStyles> 
-           <center><img src="/image/vitaminair-Green.png"/></center>
+
            <video autoPlay="autoplay" loop="loop" muted > 
                 <source src="/video/index.mp4" type="video/mp4" />
                 Your Brower dosen't support the video tag.
@@ -116,7 +117,7 @@ const  BackgroundVideo = () =>{
            <TextStyle>
             <img src="/image/VA-White-V1.png" />
             <h1 className=" animate__bounceIn">In search for</h1>
-            <h1 className=" animate__bounceIn vita">the Next Small Things</h1>
+            <h1 className=" animate__bounceIn vita">The Next Small Things</h1>
             <p className="animate__bounceIn">Protect, preserve, and restore our rain forests for generations ahead</p>
             <div>
                 

@@ -28,12 +28,14 @@ export const StyledPhoto = styled.img`
   width: 80%;
   height: 80%;
   object-fit: cover;
+
 `
 const ContentImg = styled.img`
     max-height: 60px;
     max-width: 60px;
     display: grid;
     margin-left: 0 !important;
+
 `
 
 export const Card = ({ title,description, uri, url, imgcontent ,}) => (

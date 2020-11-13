@@ -60,12 +60,16 @@ const Grid = styled.div`
     text-align: center;
     img {
     margin-left: 0% !important;
-  }
-  @media (max-width: 450px) {
+    }}
+    @media (max-width: 450px) {
     margin: 0;
     padding: 0;
+
+    img{
+    width: 63% !important;
+   }
   }
-}
+
 `;
 
 const Item = styled.div`

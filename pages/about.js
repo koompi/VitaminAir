@@ -104,6 +104,9 @@ const CoverAbout = styled.div`
     background-color: green;
     background-image: url("/image/about/cover.jpg");
     background-size: cover;
+    @media (max-width: 450px){
+        height: 300px;
+    }
 `
 export default function Home() {
     return <>

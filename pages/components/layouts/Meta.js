@@ -1,10 +1,10 @@
 import Head from 'next/head'
-
-const Meta = () => (
-    <Head>
+export default function Meta() {
+  return (
+    <div>
+        <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="/static/nprgress.css" />
         <title>VitaminAir | Reforestation | Natural Farming | Ecotourism | Seeds Bomb | Air Water</title>
         <link rel="icon" type="text/css" href="fav.png" />
         <link
@@ -12,5 +12,6 @@ const Meta = () => (
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
     </Head>
-)
-export default Meta
+    </div>
+  )
+}

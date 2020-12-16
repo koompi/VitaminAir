@@ -26,8 +26,8 @@ jobs:
       - name: Build To Production
         run: |
           cd /home/runner/work/VitaminAir/VitaminAir/
-          yarn install
-          yarn build
+          npm ci
+          npm run build
           cp run.sh ./.next/
         
       - name: ENV

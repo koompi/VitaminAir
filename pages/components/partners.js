@@ -11,7 +11,7 @@ function Partners() {
                 <img
                     className={`img-partner ${res.className}`}
                     alt={res.desc}
-                    src={`http://localhost:3000${res.logo}`}
+                    src={`https://www.vitaminair.org${res.logo}`}
                 />
             </Col>
         </>

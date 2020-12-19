@@ -13,7 +13,7 @@ function Projects() {
                             <img
                                     className="img-right"
                                     alt={res.title}
-                                    src={`https://www.vitaminair.org${res.logo}`}
+                                    src={`${res.logo}`}
                                   />
                         </div>
                       </Col>
@@ -42,7 +42,7 @@ function Projects() {
                           <img
                                   className="img-right"
                                   alt={res.title}
-                                  src={`https://www.vitaminair.org${res.logo}`}
+                                  src={`${res.logo}`}
                                 />
                       </div>
                     </Col>
@@ -64,7 +64,7 @@ function Projects() {
                             <img
                                     className="img-right"
                                     alt={res.title}
-                                    src={`https://www.vitaminair.org${res.logo}`}
+                                    src={`${res.logo}`}
                                   />
                         </div>
                       </Col>

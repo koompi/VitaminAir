@@ -1,5 +1,4 @@
-import { Row, Col } from 'antd';
-
+import { Row, Col ,Button} from 'antd';
 function abouts() {
     
 return <>
@@ -70,6 +69,15 @@ During the dry season, often there is the sound of chainsaws and woodcutters at 
                     alt="Walking to school"
                     src="https://lh6.googleusercontent.com/jS3i-3PfRySgvIbax68DWIColrdaWca9T6VFlEA4icqlFDZwh07E2X91w3hAtASAQIcmuwe5hghCDGHEXe-7IRCKZa8d2EqCPKlIT2y16jLy6vqbGfxVuBGjqmXEQA=w1280"
                 />
+            <h1 style={{marginTop: "3%" }}>Come visit us!</h1>
+            <p>In return for your generous monthly contribution, we are offering free meals and accommodations when you decide to visit to observe or help with our mission. All visits and accommodations must be arranged by appointment. </p>
+           
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeJZJq0UGLlcEdkME0IyVY7x2QMvvILf2PCy0-if2gSMRGxlg/viewform"
+              target="_blank"
+              rel="noopener noreferrer">
+              <Button className="btn-discover" style={{marginBottom: "2%"}} shape="round">Visit Now</Button>
+            </a>
       </div>
       
       

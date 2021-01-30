@@ -6,7 +6,6 @@ import { Row, Col } from 'antd';
 
 const { Header, Content, Footer } = Layout;
 
-
 export default function Navbar() {
   const [visible, setVisible] = useState(false)
 
@@ -20,29 +19,28 @@ export default function Navbar() {
     return (
       <>
         <Layout>
-        <Header className="Navbar-header Navbar-bgcolor">
-          <div className="Navbar-group">
+        <Header style={{height: '70px'}}  className="Navbar-header ">
             <Row>
               <Col span={12}>
                 <Link href="/">
-                  <img  src="/image/VA-White-V1.png" />
+                  <img style={{marginTop:'0'}}  src="/image/VA-White-V1.png"  />
                 </Link>
               </Col>
               <Col span={12}>
-                  <div className="Navbar-bgcolor Navbar-menu hidden-mobile">
+                  <div style={{marginTop: "10px" }} className="Navbar-menu hidden-mobile ">
                     
                     <Menu mode="horizontal">
-                    <Menu.Item>
+                    <Menu.Item  className="modified-item">
                       <Link href="/about">
                           About Us
                       </Link>
-                    </Menu.Item>
-                    <Menu.Item>
+                    </Menu.Item >
+                    <Menu.Item  className="modified-item">
                       <Link href="/initiation">
                           Initiation
                       </Link>
                     </Menu.Item>
-                    <Menu.Item>
+                    <Menu.Item  className="modified-item">
                         <a
                           href="https://t.me/vitaminair"
                           target="_blank"
@@ -73,13 +71,12 @@ export default function Navbar() {
                           Initiation
                       </Link>
                      </p>
-                     
                      <p>
                      <a
-                        href="https://t.me/vitaminair"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >COMMUNITY</a>
+                          href="https://t.me/vitaminair"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >COMMUNITY</a>
                      </p>
                     </Drawer>
                   </div>
@@ -87,7 +84,6 @@ export default function Navbar() {
                   
               </Col>
             </Row>
-            </div>
         </Header>
       </Layout>
       </>

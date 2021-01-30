@@ -6,7 +6,7 @@
     margin-top: 2   0px;
 }
 .Navbar-header img {
-    margin-top: -5%;
+    margin-top: 0%;
     height: 40px;
     margin-left: 60px;   
 }
@@ -19,6 +19,7 @@
 .Navbar-bgcolor {
     background: none ;
 }
+
 .ant-menu-light {
     background: none;
 }
